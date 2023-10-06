@@ -1,0 +1,65 @@
+/* Style the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+h2 {
+    text-align: center;
+    margin: 20px 0;
+    color: #333;
+}
+
+/* Style the container for the game controls */
+#gameControls {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style buttons */
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style the select and input fields */
+select, input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the result text */
+#result {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+}
+
+/* Style the connect button */
+button#connectButton {
+    background-color: #4caf50;
+    margin-top: 20px;
+}
+
+/* Style the MetaMask error message */
+#metamaskErrorMessage {
+    color: red;
+    margin-top: 10px;
+}
